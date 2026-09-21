@@ -1,12 +1,12 @@
 <mxfile host="app.diagrams.net">
   <diagram name="Página-1" id="2qvN0Kq3EtdSwibQKRGd">
-    <mxGraphModel dx="774" dy="1552" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1654" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="774" dy="383" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1654" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
         <UserObject label="&lt;b&gt;%name%&lt;/b&gt;&lt;hr&gt;CT: %time%&lt;br&gt;Wait: %qty%" step_id="LEYENDA" name="ACOTACIONES&lt;br&gt;&lt;br&gt;🟩 Verde: Agrega Valor&lt;br&gt;🟧 Naranja: Preparación / Apoyo&lt;br&gt;🔺 Rojo: Esperas e Inventario&lt;br&gt;🟦 Azul: Proveedor / Cliente&lt;br&gt;🟪 Morado: Control / Sistema&lt;br&gt;&lt;br&gt;CT = Cycle Time (T. Proceso)&lt;br&gt;Wait = Tiempo de Espera" type="legend" time="-" qty="-" next_step="-" xPos="50" yPos="50" placeholders="1" id="McalGtfq9EbGs7a699WC-152">
           <mxCell parent="1" style="shape=note;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;align=left;fontSize=11;" vertex="1">
-            <mxGeometry height="60" width="145" x="70" y="70" as="geometry" />
+            <mxGeometry height="60" width="145" x="40" y="130" as="geometry" />
           </mxCell>
         </UserObject>
         <UserObject label="&lt;b&gt;%name%&lt;/b&gt;&lt;hr&gt;CT: %time%&lt;br&gt;Wait: %qty%" step_id="SUPP" name="Manuals / Manuales" type="supplier" time="-" qty="-" next_step="PROC1" xPos="50" yPos="200" placeholders="1" id="McalGtfq9EbGs7a699WC-153">
