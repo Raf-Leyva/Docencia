@@ -1,0 +1,51 @@
+configuracion_evaluacion_curso:
+  asignatura: "Uso Eficiente de la Energía"
+  institucion: "Instituto Politécnico Nacional (IPN) - ENCB"
+  programa_academico: "Ingeniería en Sistemas Ambientales"
+  
+  requisitos_generales_aprobacion:
+    calificacion_minima_aprobatoria: 6.0
+    modalidad_trabajo: "Equipos de trabajo"
+    
+  protocolo_practicas_laboratorio:
+    condicion_acreditacion: "Aprobación obligatoria de las prácticas para acreditar la unidad de aprendizaje"
+    peso_sobre_calificacion_porcentaje: 30
+    instrumento_evaluacion: "Rúbrica"
+    evidencia_auditable_obligatoria: "En los ejercicios que requieran algoritmos en Excel, estos deberán enviarse junto con el reporte para su auditoría técnica."
+    estructura_reporte_escrito:
+      - Introducción
+      - Objetivos
+      - Resultados
+      - Discusiones
+      - Conclusiones
+      - Referencias consultadas
+
+  metodo_generacion_reportes:
+    paso_1_auditoria_evidencia: "Verificar la recepción y funcionalidad del archivo Excel (modelo operativo, no solo tablas) como sustento auditable de los cálculos."
+    paso_2_validacion_rubrica_y_protocolo: "Validar el reporte de los alumnos estrictamente contra la rúbrica de evaluación, asegurando que se cumplan los objetivos y el marco técnico definido en el protocolo de la práctica."
+    paso_3_revision_referencias: "Validar las referencias que pongan los alumnos, verificando la calidad de las fuentes de consulta y el uso correcto del formato APA."
+    paso_4_emision_dictamen: "Redactar el feedback técnico, áreas de oportunidad y el desglose de calificación para generar el reporte individual por equipo."
+    paso_5_actualizacion_matriz_grupal: "Vaciar los puntajes base, puntos extra y calificación final escalada en el Excel concentrador del grupo."
+
+  especificaciones_salida_evaluador:
+    reporte_calificacion_por_equipo:
+      formato: "Documento de texto individual (Word/Markdown/Google Doc)"
+      secciones_incluidas:
+        - "Identificación del Equipo y Alumnos"
+        - "Feedback General y Técnico (Mejora Continua)"
+        - "Veredicto de Viabilidad (Análisis económico / Técnico)"
+        - "Desglose de Puntuación según Rúbrica"
+        - "Penalizaciones Críticas (ej. Falta de evidencia auditable)"
+        - "Calificación Final Escalada"
+    
+    excel_grupal_calificaciones:
+      formato: "Hoja de cálculo concentradora (CSV/Google Sheets)"
+      columnas_requeridas:
+        - "Boleta"
+        - "Alumno (Apellidos, Nombres)"
+        - "Equipo"
+        - "Carga Asignada / Variable Operativa"
+        - "Excel Entregado (Auditoría de modelo)"
+        - "Puntaje Base (max 10)"
+        - "Puntos Extra (max +2)"
+        - "Calificación Final"
